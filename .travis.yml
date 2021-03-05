@@ -4,6 +4,10 @@ go_import_path: github.com/kubeflow/chainer-operator
 go:
 - 1.10.2
 
+arch:
+ - amd64
+ - ppc64le
+
 before_install:
 - go get -u github.com/golang/dep/cmd/dep
 - dep ensure
